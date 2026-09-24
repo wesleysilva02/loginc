@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOGIN</title>
+<style>
+  
+body{
+background-image: url("https://cdn.pixabay.com/photo/2021/10/11/17/54/technology-6701504_1280.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+}
+#place ,#sen {
+background:transparent;
+border-radius:5px;
+display:flex;
+justify-content:center;
+align-items:center;
+height:10px;
+padding:10px;
+place-items:center;
+margin:5px;
+width: 176px;
+}
+#ent{
+background:blue;
+color:white;
+padding:5px 6px;
+width:50px;
+cursor:pointer;
+background-color: #ffd000;
+transition: background-color 0.3s ease; 
+
+}
+
+#ent:hover{
+  background-color: rgb(49, 90, 227);
+}
+
+ #ch{
+font-color:red;
+width:30px;
+font-size:16px;
+}
+#il {
+font-size:16px;
+width:20px;
+}
+h1{
+color:white;
+padding:0;
+margin:0;
+}
+.no {
+border:3px solid white;
+padding:5px;
+border-radius:absolute;
+display:f;
+width:210px;
+}
+html, body {
+height:100vh;
+margin:0;
+display:grid;
+place-items:center;
+}
+
+
+</style>
+</head>
+<body>
+<div class="no">
+<h1>entre ou cadastre-se</h1>
+<div class="container"></div>
+<input type="email" placeholder="digite seu email" id="place">
+<div class="senha"><div>
+<input type="password" placeholder="digite sua senha" id="sen">
+<button  type="submit" id="ent">login</button>
+<i>
+<input type="checkbox" id="ch">lembrar senha</input>
+<div>
+<a href="#" id="il">esqueci a senha</a>
+</div>
+</div>
+</body>
+</html>
